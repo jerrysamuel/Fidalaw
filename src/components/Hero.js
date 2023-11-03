@@ -5,7 +5,7 @@ import Typed from 'react-typed';
 const Hero = () => {
   return (
 
-    <div className=' text-white justify-between'>
+    <div className=' text-white justify-between '>
         <div className='w-full max-w-[900px] mt-[-96px] h-screen mx-auto text-center flex flex-col justify-center'>
         <p className=' text-white items-center text-xl font-bold '>Finding the Perfect <span className='text-2xl text-[#9a00df]'>Legal Counsel </span>
          <br/>Can Be Daunting....</p>

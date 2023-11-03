@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "./components/NavBar";
 import Hero  from "./components/Hero";
 import Middle from "./components/Middle";
-import Offer from "./components/Offer";
+// import Offer from "./components/Offer";
+import Newsletter from "./components/Newsletter";
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     <Navbar/>
     <Hero />
     <Middle/>
-    <Offer/>
+    {/* <Offer/> */}
+    <Newsletter/>
     <div className="App">
       
       {/* <h1 className="text-white">FidaLaw</h1> */}
