@@ -8,25 +8,25 @@ const Hero = () => {
 
     <div className=' text-white justify-between '>
         <div className='w-full max-w-[900px] mt-[-96px] h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className=' text-white items-center text-xl font-bold '>Finding the Perfect <span className='text-2xl text-[#9a00df]'>Legal Counsel </span>
+        <p className=' text-white items-center text-xl font-bold mb-4'>Finding the Perfect <span className='text-2xl text-[#9a00df]'>Legal Counsel </span>
          <br/>Can Be Daunting....</p>
-        <h1 className='text-6xl md:7xl lg:text-4xl mb-2 font-bold md:py-6'>Hire the <span className='text-[#9a00df]'>Best</span> lawyer</h1>
+        <h1 className='text-5xl md:6xl lg:text-4xl mb-2 font-bold md:py-6'>Hire the <span className='text-[#9a00df]'>Best</span> lawyer</h1>
        
-        <div className='text-white items-center text-xl font-bold'>
+        <div className='text-white items-center text-xl font-bold mt-2'>
             <TypeAnimation
           sequence={[
-            'We Connect Clients To The Best Lawyers, Making Justice Accessible To Everyone.>',
+            'We Connect Clients To The Best Lawyers, Making Justice Accessible To Everyone.',
             1000,
-            'We Connect Clients To The Best Lawyers, Making Justice Accessible To Everyone.>',
+            'We Connect Clients To The Best Lawyers, Making Justice Accessible To Everyone.',
             1000,
-            'We Connect Clients To The Best Lawyers, Making Justice Accessible To Everyone.>',
+            'We Connect Clients To The Best Lawyers, Making Justice Accessible To Everyone.',
             1000,
-            'We Connect Clients To The Best Lawyers, Making Justice Accessible To Everyone.>',
+            'We Connect Clients To The Best Lawyers, Making Justice Accessible To Everyone.',
             1000
           ]}
           wrapper="span"
           speed={50}
-          style={{ fontSize: '1.5em', display: 'inline-block' }}
+          style={{ fontSize: '1.3em', display: 'inline-block' }}
           repeat={Infinity}
         /> 
         </div> 
